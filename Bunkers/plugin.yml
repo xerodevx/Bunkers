@@ -1,0 +1,6 @@
+main: io.brkmc.bunkers.Bunkers
+name: Bunkers
+version: 1.0-RELEASE.b2123
+author: Xero
+# Commands are automatically registered -> /team, /koth, /start
+# Using a command framework made by Xero

@@ -1,0 +1,77 @@
+MONGODB:
+  ADDRESS: "bnitqfxdpw5psbi-mongodb.services.clever-cloud.com"
+  PORT: 27017
+  DATABASE: "bnitqfxdpw5psbi"
+  AUTHENTICATION:
+    ENABLED: true
+    USERNAME: "uwlrua6aak6enaua0qx9"
+    PASSWORD: "jSTWUzYlf8QgAmFEImvA"
+    DATABASE: ""
+
+SCOREBOARD:
+  TITLE: "&6&lCorners &c[Beta]"
+  IN_GAME:
+    - "&7&m------------------------"
+    - "&e&lTeam: %teamcolor%%team%"
+    - "&4&lDTR: &c%dtr%"
+    - "&6&l%koth%: &c%time%"
+    - "&a&lCash: &c$%balance%"
+    - "&9&lEnderpearl: &c%enderpearl_time%"
+    - "&7&m------------------------&f"
+  IN_LOBBY:
+    - "&7&m------------------------"
+    - "&eMap"
+    - "&f%map_name%"
+    - ""
+    - "&eGame State"
+    - "&fWaiting..."
+    - ""
+    - "&eTeam"
+    - "&c%team%"
+    - ""
+    - "&ePlayers"
+    - "%players% &c(%needed% players needed...)"
+    - "&7&m------------------------&f"
+
+LOBBY:
+    ITEMS:
+        RED:
+            NAME: "&c&lRed Team"
+            ITEM: REDSTONE
+            SLOT: 2
+        BLUE:
+            NAME: "&b&lBlue Team"
+            ITEM: LAPIS
+            SLOT: 3
+        GREEN:
+            NAME: "&a&lGreen Team"
+            ITEM: EMERALD
+            SLOT: 5
+        YELLOW:
+            NAME: "&e&lYellow Team"
+            ITEM: GOLD
+            SLOTH: 6
+    MIN_PLAYERS: 20
+
+MESSAGES:
+    FACTION:
+        ENTERING: "&eYou are now Entering: %team%"
+        LEAVING: "&e You are now Leaving: %team%"
+        DAMAGE: "&cYou can't damage your team members."
+        SHOW:
+            - "&7&m-----------------------------------------------------"
+            - "&9%FACTION% &7[%ONLINE_COUNT%/%MAX_COUNT%] &3- &eHome:&f %HOME%"
+            - "&eMembers: %MEMBERS%"
+            - "&eDeaths until raidable: &a%DTR%%DTR_SYMBOL%"
+            - "&7&m-----------------------------------------------------"
+    SHOP:
+        PURCHASED: "&aYou have successfully purchased %item% for $%money%.
+    DEATH: "%killer_color%%killer_name%&7[%killer_dtr%&7] &fkilled %death_color%%death_name%&7[%death_dtr%&7]"
+
+TIMERS:
+    START: "60s"
+    HOME: "10s"
+    STUCK: "30s"
+TEAM:
+    MAX_DTR: 6.0
+    DTR_PER_PLAYER: 1.0
